@@ -1,15 +1,22 @@
 
 window.onload=function () {
-    $('#myTab a').on('mouseover', function (e) {
+    var isEnter = false;  //全局变量
+    //mouseenter
+    $('#myTab a').on('mouseenter', function (e) {
         e.preventDefault()
-        var tab = this
-        var preTab = e.relatedTarget
-        // console.log("tab = ",$(tab),'e=',e)
+        if(isEnter){
+           return; 
+        }
+        isEnter = true;
+        $(this).tab('show')
+        
         setTimeout(function(){
-            $(tab).tab('show')
-        }, 200);
+            isEnter = false;
+        }, 150);
       })
-    
+
+
+
     // $('#myTab a').on('click', function (e) {
     // e.preventDefault()
     // $(this).tab('show')

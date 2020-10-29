@@ -146,7 +146,7 @@ a:hover{
  }
 
 .card .card-program .card-program-tabs{
-    margin-top: 7rem;
+    margin-top: 6rem;
 }
 
 .tab-content .tab-pane .tab-box{
@@ -370,3 +370,84 @@ transform: scale(1.2)
 .pro-menu .flc .db{display:block;}
 .pro-menu .flc li{height: 42px;line-height: 42px;border-bottom: 1px solid #efefef;text-align: center;overflow: hidden;font-size: 16px;color: #666666; width: 174px;list-style: none;}
 .pro-menu .flc li a{color: #666666;}
+
+.demo{padding: 1em 0;}
+a:hover,a:focus{
+    outline: none;
+    text-decoration: none;
+}
+.box-tab .nav-tabs{
+    border: 1px solid #1fc1dd;
+}
+.box-tab .nav-tabs li{
+    margin: 0;
+}
+.box-tab .nav-tabs li a{
+    font-size: 14px;
+    color: #999898;
+    background: #fff;
+    margin: 0;
+    padding: 20px 25px;
+    border-radius: 0;
+    border: none;
+    border-right: 1px solid #ddd;
+    text-transform: uppercase;
+    position: relative;
+}
+.box-tab .nav-tabs li a:hover{
+    border-top: none;
+    border-bottom: none;
+    border-right-color: #ddd;
+}
+.box-tab .nav-tabs li.active a,
+.box-tab .nav-tabs li.active a:hover{
+    color: #fff;
+    border: none;
+    background: #1fc1dd;
+    border-right: 1px solid #ddd;
+}
+.box-tab .nav-tabs li.active a:before{
+    content: "";
+    width: 58%;
+    height: 4px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.box-tab .nav-tabs li.active a:after{
+    content: "";
+    border-top: 10px solid #1fc1dd;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 43%;
+}
+.box-tab .tab-content{
+    font-size: 13px;
+    color: #999898;
+    line-height: 25px;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #1fc1dd;
+    border-top: none;
+}
+.box-tab .tab-content h3{
+    font-size: 24px;
+    color: #999898;
+    margin-top: 0;
+}
+@media only screen and (max-width: 480px){
+    .box-tab .nav-tabs li{
+        width: 100%;
+        text-align: center;
+    }
+    .box-tab .nav-tabs li.active a,
+    .box-tab .nav-tabs li.active a:after,
+    .box-tab .nav-tabs li.active a:hover{
+        border: none;
+    }
+}
