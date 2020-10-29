@@ -1,0 +1,372 @@
+/*global*/
+body{
+    background-color: #f4f4f4;
+}
+.sf-container{
+    min-height: 80vh;
+}
+a{
+    color:#333;
+}
+a:hover{
+    /*color:#FF9400;*/
+    color:#023a8c;
+    text-decoration: none;
+}
+
+/*header*/
+ .sf-header {
+    padding-left: 0;
+    padding-right: 0;
+    height: 180px;
+    line-height: 180px;
+    box-shadow:0 5px 15px rgba(153, 153, 153, 0.1)
+}
+
+/*top*/
+.sf-header .sf-top {
+    background-color: #033a8d;
+    height: 48px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sf-top .content{
+    display:-webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 48px;
+}
+
+/** 搜索框相关 **/
+.sf-top .content .welcome{
+    color:#fff;
+    font-size: 0.8rem;
+    margin-right: 2rem;
+}
+
+.p1-search-1-inp {
+    width: 270px;
+    height: 30px;
+    border-radius: 20px;
+    background: #fff;
+    padding-left: 16px;
+    margin-right: 20px;
+}
+
+.p1-search-1-inp input {
+    border: 0;
+}
+
+.p1-search-1-inp1 {
+    width: 224px;
+    height: 30px;
+    line-height: 30px;
+    color: #a9a9a9;
+    float: left;
+}
+
+.p1-search-1-inp2 {
+    width: 30px;
+    height: 30px;
+    background: url(../images/search.png) no-repeat -0px -0px;
+    background-size: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+.sf-header .sf-bottom{
+    display: flex;
+    background-color: #fff;
+    height: 132px;
+    justify-content: space-between;
+}
+
+.sf-header .sf-bottom .sf-logo-text{
+    width: 480px;
+    left: 190px;
+    position: relative;
+    top: 1.6rem;
+}
+
+.sf-logo-text em{
+    font-size: 1rem;
+}
+
+.sf-header .sf-bottom .sf-nav{
+    /* align-self: end; */
+    display: flex;
+    height: 132px;
+  	justify-content: flex-end;
+      align-items: center;
+      margin-right: 3rem;
+}
+
+.nav li a.active{
+    color:#023a8c;
+    font-weight: bold;
+}
+
+.sf-header .sf-logo{
+    position: absolute;
+    width: 173px;
+    height: 168px;
+    top: 10px;
+    left: 20px;
+}
+
+.sf-container{
+    
+}
+
+.content .card{
+    border: 0;
+}
+
+.content .card .card-img-overlay{
+    max-width: 540px; 
+    left: 50%;
+    padding-top: 6rem;
+}
+
+.content .card .card-program{
+    background: url(../images/fabg.jpg) no-repeat 50% 0;
+}
+
+.card-program .title-box{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.title-box h3{
+    color: #023a8c;
+ }
+
+.card .card-program .card-program-tabs{
+    margin-top: 7rem;
+}
+
+.tab-content .tab-pane .tab-box{
+    display: flex;
+}
+
+.paddingHroz-no{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.tab-content .tab-pane .andesc{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+
+.content .card .card-case{
+    background: #FFF;
+    margin-top: 12rem;
+}
+
+
+.card-case-tabs{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-case-tabs .case-tabs {
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+}
+
+.case-item .nav-link {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-case-tabs .case-tabs .case-item{
+    display: flex;
+    flex: 1;
+}
+
+.card-case-tabs .case-tabs .case-item a:hover{
+    display: flex;
+    flex: 1;
+    background-color: #f3f4f5;
+}
+
+.card-case-tabs .case-tabs .case-item .nav-link .desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+.card-case-tabs .case-tabs .case-item .icon_bg{
+    width: 5.8rem;
+    height: 6.4rem;
+}
+
+.card-case-tabs .case-tabs .case-item .icon{
+    width: 1rem;
+    height: 1rem;
+    rotate: 90deg;
+    margin-top: 4rem;
+    margin-left: 0.2rem;
+}
+
+.card-case .tab-box{
+    display: flex;
+}
+
+.card-case .tab-box .box-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-right: 0.5rem;
+}
+
+.box-left .andesc{
+    padding: 1rem;
+    background-color: #e2e2e2;
+}
+
+
+
+.card-case .tab-box .box-right{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.card-case .tab-box .box-right .box-img{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.card-case .tab-box .box-right .box-img-desc{
+    display: flex;
+    flex-wrap: wrap;
+    background:url(../images/lctel.png) no-repeat;
+    width: 30rem;
+    align-self: center;
+    margin-top: 3rem;
+    padding: 0.8rem;
+}
+
+.box-img-desc span{
+    color: #FFF;
+    font-size: 1rem;
+    margin-left: 4rem;
+}
+
+
+.card-case .tab-box .box-right .card-overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-case .tab-box .box-right .card-overlay h5{
+    color: #fff;
+    margin-top: -30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index:101;
+    display: inline-block;
+    white-space: nowrap; 
+    width: 15rem; 
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+
+.overFlow{
+    background:#000000 none repeat scroll 0 0;
+    height:36px;
+    margin-top: -40px;
+    width:96%;
+    z-index:100;
+    left:5px;
+    opacity:0.6 !important; /*专用于FF*/
+    filter: Alpha(Opacity=30); /*专用于IE*/
+} 
+
+.imgHoverZoom{float:left;margin:5px;overflow:hidden;}
+.imgHoverZoom img{
+height:195px;
+-webkit-transition: -webkit-transform .3s ease;
+-moz-transition: -moz-transform .3s ease;
+-ms-transition: -ms-transform .3s ease;
+transition: transform .3s ease;
+}
+.imgHoverZoom img:hover{
+-webkit-transform: scale(1.2);
+-moz-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2)
+}
+
+
+.content .card .card-product{
+    background: url(../images/cpbg.jpg) no-repeat 50% 0;
+}
+
+.card-product .title-box{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.card-product .product-container{
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 0.6rem;
+}
+
+.product-container .pro-menu{
+    background-color: #FFF;
+}
+.product-container .pro-menu .menu-title{
+    background: url(../images/fltit.jpg) no-repeat;
+    width: 242px;
+    height: 157px;
+    color: #fff;
+}
+
+.pro-menu .menu-title .text{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+
+.product-container .card-pro-tabs{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.card-pro-tabs .tab-content .cplst{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card-pro-tabs .tab-content .cplst li{float: left;width: 288px;margin-right: 16px;transition: all 0.3s linear 0s;list-style:none;}
+.card-pro-tabs .tab-content .cplst .lastli{margin-right: 0;}
+.card-pro-tabs .tab-content .cplst li img{width: 288px;height: 215px;display: block;border: 1px solid #e2e2e2;}
+.card-pro-tabs .tab-content .cplst li:hover{ transform: translateY(-10px);}
+.card-pro-tabs .tab-content .cplst li em{display: block;width: 288px;background:url(../images/cpico.jpg) no-repeat right 10px;font-size: 14px;color: #252525;height: 46px;line-height: 46px;overflow: hidden;}
+
+.pro-menu .flc{background: #fff;}
+.pro-menu .flc h4{background:url(../images/flh2.jpg) no-repeat;margin: 20px auto 0;width: 174px;}
+.pro-menu .flc h4 a{color: #252525;width: 174px;height: 36px;line-height: 36px;font-size: 16px;color: #252525;font-weight: bold;text-align: center; display: block;}
+.pro-menu .flc h4 a:hover{background:url(../images/flh2h.jpg) no-repeat;color: #fff;}
+.pro-menu .flc .flst{padding-top: 10px; display:none;}
+.pro-menu .flc .db{display:block;}
+.pro-menu .flc li{height: 42px;line-height: 42px;border-bottom: 1px solid #efefef;text-align: center;overflow: hidden;font-size: 16px;color: #666666; width: 174px;list-style: none;}
+.pro-menu .flc li a{color: #666666;}
