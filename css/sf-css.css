@@ -324,9 +324,10 @@ transform: scale(1.2)
 
 .card-product .product-container{
     display: flex;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    /* padding-left: 2rem; */
+    /* padding-right: 2rem; */
     margin-top: 0.6rem;
+    justify-content: center;
 }
 
 .product-container .pro-menu{
