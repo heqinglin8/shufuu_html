@@ -159,6 +159,11 @@ a:hover{
     padding-right: 0;
 }
 
+.paddingHroz-1rem{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .tab-content .tab-pane .andesc{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -329,6 +334,7 @@ transform: scale(1.2)
     display: flex;
     margin-top: 0.6rem;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .product-container .pro-menu{
@@ -457,9 +463,35 @@ a:hover,a:focus{
 
 .content .card .card-aboutme{
     background-color: #FFF;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .card .card-aboutme .card-aboutme-tabs{
     margin-top: 4rem;
 }
+
+.card-aboutme-tabs .tab-content .m_ysbd {position: relative;}
+.card-aboutme-tabs .tab-content .m_ysbd dd{position: absolute;left:49px;top:220px;}
+.card-aboutme-tabs .tab-content .m_ysbd h3{height: 60px;font-size: 30px;font-weight: normal;color: #000000;}
+.card-aboutme-tabs .tab-content .m_ysbd h3 em{display: block;font-size: 20px;color: #777777;font-weight: normal;padding-top: 6px;}
+.card-aboutme-tabs .tab-content .m_ysbd p{background:url(../images/ysico.jpg) no-repeat 0 7px; padding-left: 30px;line-height: 20px;font-size: 14px;color: #333333; width:336px; }
+
+.content .card .card-live{
+    background-color: #FFF;
+    margin-top: 3rem;
+}
+
+.card .card-live .card-live-content{
+    display: flex;
+    margin-top: 4rem; 
+}
+
+/* .card-live-content .live-content{float: left;} */
+.card-live-content .live-content h3{border-top: 3px solid #f6f6f6;padding-top: 24px;height: 108px;font-size: 26px;font-weight: bold;color: #2a2a2a;}
+.card-live-content .live-content h3 a{color: #2a2a2a;}
+.card-live-content .live-content h3 em{display: block;font-size: 14px;color: #666666;padding-top:5px;font-weight: normal;}
+
+/* .card-live-content .honor-content{padding-left: 1rem;padding-right: 1rem;} */
+.card-live-content .honor-content h3{border-top: 3px solid #f6f6f6;padding-top: 24px;height: 108px;font-size: 26px;font-weight: bold;color: #083ea0;}
+.card-live-content .honor-content h3 a{color: #083ea0;}
+.card-live-content .honor-content h3 em{display: block;font-size: 14px;color: #666666;padding-top:5px;font-weight: normal;}
