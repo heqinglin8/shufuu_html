@@ -491,7 +491,7 @@ a:hover,a:focus{
 .card-live-content .live-content h3 a{color: #2a2a2a;}
 .card-live-content .live-content h3 em{display: block;font-size: 14px;color: #666666;padding-top:5px;font-weight: normal;}
 
-/* .card-live-content .honor-content{padding-left: 1rem;padding-right: 1rem;} */
+.card-live-content .honor-content{padding-left: 1rem;padding-right: 1rem;}
 .card-live-content .honor-content h3{border-top: 3px solid #f6f6f6;padding-top: 24px;height: 108px;font-size: 26px;font-weight: bold;color: #083ea0;}
 .card-live-content .honor-content h3 a{color: #083ea0;}
 .card-live-content .honor-content h3 em{display: block;font-size: 14px;color: #666666;padding-top:5px;font-weight: normal;}

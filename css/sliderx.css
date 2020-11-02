@@ -14,20 +14,22 @@
 }
 .control-box ul li {
   position: absolute;
-  top: 50px;
+  top: 70px;
   cursor: pointer;
 }
 .prev {
-  left: 0;
+  left: 3px;
+  z-index: 100;
 }
 .next {
   right: 0;
+  z-index: 100;
 }
 .bigbox {
   overflow: hidden;
   /* width: 1032px; */
   /* height: 190px; */
-  /* margin: auto 50px auto; */
+  margin: auto 0px auto;
 }
 #switcher {
   /* height: 190px; */
