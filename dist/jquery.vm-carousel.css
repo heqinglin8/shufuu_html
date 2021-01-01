@@ -29,7 +29,7 @@
     text-shadow: 2px 2px #000;
 }
 .vmc-arrow-left:hover:after, .vmc-arrow-right:hover:after{color: white;}
-.vmc-arrow-left:after{content: url("../images/cpico.jpg");}
+.vmc-arrow-left:after{content: url("../images/cpico.jpg"); rotate: 180deg;}
 .vmc-arrow-right:after{content: url("../images/cpico.jpg");}
 
 .vmc-container img[src$=".svg"]{width: 100% !important; height: auto !important; max-height: 100%;}

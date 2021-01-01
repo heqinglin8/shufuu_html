@@ -17,8 +17,8 @@ window.onload=function () {
 
 
 
-    // $('#myTab a').on('click', function (e) {
-    // e.preventDefault()
-    // $(this).tab('show')
-    // })
+    $('#newsTab a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+    })
 }
