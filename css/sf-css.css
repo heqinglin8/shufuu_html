@@ -85,10 +85,14 @@ a:hover{
 }
 
 .sf-header .sf-bottom .sf-logo-text{
-    width: 480px;
-    left: 190px;
+    width: 30rem;
+    left: 12rem;
     position: relative;
-    top: 2.0rem;
+    padding-top: 2rem;
+}
+
+.sf-logo-text h4{
+  font-weight: 400;
 }
 
 .sf-logo-text em{
@@ -123,19 +127,19 @@ a:hover{
     left: 20px;
 }
 
-.content .desc-container .card{
+.center-content .desc-container .card{
     border: 0;
     background: url(../images/ppbg.jpg) no-repeat 50% 0;
     height: 30rem;
 }
 
-.content .desc-container .card .card-img-overlay{
+.center-content .desc-container .card .card-img-overlay{
     max-width: 640px; 
     left: 50%;
     padding-top: 6rem;
 }
 
-.content .card .card-program{
+.center-content .card .card-program{
     background: url(../images/fabg.jpg) no-repeat 50% 0;
     padding-top:  4rem;
 }
@@ -173,7 +177,7 @@ a:hover{
 }
 
 
-.content .card .card-case{
+.center-content .card .card-case{
     background: #FFF;
     margin-top: 8rem;
 }
@@ -325,7 +329,7 @@ transform: scale(1.2)
 }
 
 
-.content .card .card-product{
+.center-content .card .card-product{
     background: url(../images/cpbg.jpg) no-repeat 50% 0;
     margin-top: 3rem;
 }
@@ -450,11 +454,7 @@ a:hover,a:focus{
     border: 1px solid #e2e2e2;
     border-top: none;
 }
-/* .box-tab .tab-content h3{
-    font-size: 24px;
-    color: #999898;
-    margin-top: 0;
-} */
+
 @media only screen and (max-width: 480px){
     .box-tab .nav-tabs li{
         width: 100%;
@@ -467,7 +467,7 @@ a:hover,a:focus{
     }
 }
 
-.content .card .card-aboutme{
+.center-content .card .card-aboutme{
     background-color: #FFF;
     margin-top: 3rem;
 }
@@ -485,7 +485,7 @@ a:hover,a:focus{
 .card-aboutme-tabs .tab-content .m_ysbd h3 em{display: block;font-size: 20px;color: #777777;font-weight: normal;padding-top: 6px;}
 .card-aboutme-tabs .tab-content .m_ysbd p{background:url(../images/ysico.jpg) no-repeat 0 7px; padding-left: 30px;line-height: 20px;font-size: 14px;color: #333333; width:336px; }
 
-.content .card .card-live{
+.center-content .card .card-live{
     background-color: #FFF;
     margin-top: 2rem;
 }
@@ -523,7 +523,7 @@ a:hover,a:focus{
 .g_lc .lctel em{display: block;float: left;width:286px;text-align: center;font-size: 18px;font-weight: bold;color: #fff;}
 
 
-.content .card .card-news{
+.center-content .card .card-news{
     background: #FFF;
 }
 
