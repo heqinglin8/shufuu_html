@@ -129,15 +129,34 @@ a:hover{
 
 .center-content .desc-container .card{
     border: 0;
-    background: url(../images/ppbg.jpg) no-repeat 50% 0;
+    background:#fff url(../images/ppbg-3.jpg) no-repeat 50% 0;
+	background-size:contain;
     height: 30rem;
 }
 
 .center-content .desc-container .card .card-img-overlay{
     max-width: 640px; 
-    left: 50%;
-    padding-top: 6rem;
+    left: 48%;
+    padding-top: 10%;
 }
+
+
+.ellipsis-3{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical
+}
+
+.ellipsis-1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical
+}
+
 
 .center-content .card .card-program{
     background: url(../images/fabg.jpg) no-repeat 50% 0;
