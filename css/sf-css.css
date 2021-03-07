@@ -198,7 +198,6 @@ a:hover{
 
 .center-content .card .card-case{
     background: #FFF;
-    margin-top: 8rem;
 }
 
 .card-case .title-box{
@@ -240,11 +239,14 @@ a:hover{
     flex-direction: column;
     margin-top: 1rem;
     font-size: 1.4rem;
+	white-space: nowrap;
+	overflow: hidden; 
+	text-overflow:ellipsis;
 }
 
 .card-case-tabs .case-tabs .case-item .icon_bg{
-    width: 5.8rem;
-    height: 6.4rem;
+    width: 30%;
+    height: 6rem;
 }
 
 .card-case-tabs .case-tabs .case-item .icon{
@@ -282,6 +284,7 @@ a:hover{
 .card-case .tab-box .box-right .box-img{
     display: flex;
     flex-wrap: wrap; 
+    background-color: #ff0;
 }
 
 .card-case .tab-box .box-right .box-img-desc{
@@ -307,6 +310,21 @@ a:hover{
     align-items: center;
 }
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 相当于 1fr 1fr 1fr */
+    grid-template-rows: repeat(2, 1fr); /* fr单位可以将容器分为几等份 */
+    grid-gap: 1%; /* grid-column-gap 和 grid-row-gap的简写 */
+    grid-auto-flow: row;
+}
+
+.grid>div{
+    color: #fff;
+    font-size: 50px;
+    line-height: 2;
+    text-align: center;
+    background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%);
+}
 
 .card-case .tab-box .box-right .card-overlay h5{
     color: #fff;
@@ -420,11 +438,11 @@ a:hover,a:focus{
     margin: 0;
 }
 .box-tab .nav-tabs li a{
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #1d1d1d;
     background: #fff;
     margin: 0;
-    padding: 20px 25px;
+    padding: 1.2rem 0.9rem;
     border-radius: 0;
     border: none;
     border-right: 1px solid #ddd;
@@ -488,7 +506,6 @@ a:hover,a:focus{
 
 .center-content .card .card-aboutme{
     background-color: #FFF;
-    margin-top: 3rem;
 }
 
 .card-aboutme .title-box{
